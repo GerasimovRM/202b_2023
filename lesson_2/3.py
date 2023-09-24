@@ -1,7 +1,13 @@
-def func(a, b):
-    if b == 0:
-        raise ZeroDivisionError("Аргумент b не может быть равен 0!!!")
-    return a / b
+import pickle
 
 
-func(3, 0)
+lst = [1, 2, 3, True]
+
+with open("3_out.txt", "w") as output_file:
+    print(lst, file=output_file)
+
+with open("3_out.txt", "r") as input_file:
+    st = input_file.read().strip()
+    print(st)
+    lst = list(st)
+    print(lst)

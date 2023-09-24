@@ -1,3 +1,3 @@
-import math
+import sys
 
-print()
+print("123", file=sys.stdout)
