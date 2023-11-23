@@ -7,6 +7,8 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QLCDNumb
 # Унаследуем наш класс от простейшего графического примитива QWidget
 class FirstForm(QWidget):
     def __init__(self):
+        sad'kas;dj' \
+           ';aksjd'
         # Надо не забыть вызвать инициализатор базового класса
         super().__init__()
         # В метод initUI() будем выносить всю настройку интерфейса,
